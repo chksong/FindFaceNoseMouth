@@ -8,8 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#import <opencv2/objdetect/objdetect.hpp>
+#endif 
+
+#import <opencv2/highgui/cap_ios.h>
+#import <opencv2/imgproc/imgproc_c.h>
+
+using namespace cv ;
+
+@interface ViewController : UIViewController<CvVideoCameraDelegate>
+{
+    CvVideoCamera* videoCamera ;
+    
+    __weak IBOutlet UIImageView *imageView;
+}
 
 @end
 

@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		B0BAB5621B8207220038ACB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAB5611B8207220038ACB3 /* main.m */; };
 		B0BAB5651B8207220038ACB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAB5641B8207220038ACB3 /* AppDelegate.m */; };
-		B0BAB5681B8207220038ACB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAB5671B8207220038ACB3 /* ViewController.m */; };
 		B0BAB56B1B8207220038ACB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB5691B8207220038ACB3 /* Main.storyboard */; };
 		B0BAB56D1B8207220038ACB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB56C1B8207220038ACB3 /* Images.xcassets */; };
 		B0BAB5701B8207220038ACB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB56E1B8207220038ACB3 /* LaunchScreen.xib */; };
 		B0BAB57C1B8207220038ACB3 /* FindFaceEyesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAB57B1B8207220038ACB3 /* FindFaceEyesTests.m */; };
+		B0BAB5881B821FDE0038ACB3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0BAB5871B821FDE0038ACB3 /* ViewController.mm */; };
+		B0BAB58A1B821FFA0038ACB3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5891B821FFA0038ACB3 /* AssetsLibrary.framework */; };
+		B0BAB58D1B8224D40038ACB3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB58C1B8224D40038ACB3 /* opencv2.framework */; };
+		B0BAB58F1B822C120038ACB3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB58E1B822C120038ACB3 /* AVFoundation.framework */; };
+		B0BAB5911B822D400038ACB3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5901B822D400038ACB3 /* Accelerate.framework */; };
+		B0BAB5931B822D580038ACB3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5921B822D580038ACB3 /* ImageIO.framework */; };
+		B0BAB5951B822E460038ACB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5941B822E460038ACB3 /* CoreGraphics.framework */; };
+		B0BAB5971B822E620038ACB3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5961B822E620038ACB3 /* CoreVideo.framework */; };
+		B0BAB5991B822E880038ACB3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5981B822E880038ACB3 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +41,21 @@
 		B0BAB5631B8207220038ACB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0BAB5641B8207220038ACB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0BAB5661B8207220038ACB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0BAB5671B8207220038ACB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0BAB56A1B8207220038ACB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0BAB56C1B8207220038ACB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0BAB56F1B8207220038ACB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0BAB5751B8207220038ACB3 /* FindFaceEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindFaceEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BAB57A1B8207220038ACB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BAB57B1B8207220038ACB3 /* FindFaceEyesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindFaceEyesTests.m; sourceTree = "<group>"; };
+		B0BAB5871B821FDE0038ACB3 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B0BAB5891B821FFA0038ACB3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B0BAB58C1B8224D40038ACB3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		B0BAB58E1B822C120038ACB3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B0BAB5901B822D400038ACB3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B0BAB5921B822D580038ACB3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B0BAB5941B822E460038ACB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0BAB5961B822E620038ACB3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B0BAB5981B822E880038ACB3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0BAB5991B822E880038ACB3 /* CoreMedia.framework in Frameworks */,
+				B0BAB5971B822E620038ACB3 /* CoreVideo.framework in Frameworks */,
+				B0BAB5951B822E460038ACB3 /* CoreGraphics.framework in Frameworks */,
+				B0BAB5931B822D580038ACB3 /* ImageIO.framework in Frameworks */,
+				B0BAB5911B822D400038ACB3 /* Accelerate.framework in Frameworks */,
+				B0BAB58F1B822C120038ACB3 /* AVFoundation.framework in Frameworks */,
+				B0BAB58D1B8224D40038ACB3 /* opencv2.framework in Frameworks */,
+				B0BAB58A1B821FFA0038ACB3 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				B0BAB55E1B8207220038ACB3 /* FindFaceEyes */,
+				B0BAB58B1B82235B0038ACB3 /* Frameworks */,
 				B0BAB5781B8207220038ACB3 /* FindFaceEyesTests */,
 				B0BAB55D1B8207220038ACB3 /* Products */,
 			);
@@ -84,7 +109,7 @@
 				B0BAB5631B8207220038ACB3 /* AppDelegate.h */,
 				B0BAB5641B8207220038ACB3 /* AppDelegate.m */,
 				B0BAB5661B8207220038ACB3 /* ViewController.h */,
-				B0BAB5671B8207220038ACB3 /* ViewController.m */,
+				B0BAB5871B821FDE0038ACB3 /* ViewController.mm */,
 				B0BAB5691B8207220038ACB3 /* Main.storyboard */,
 				B0BAB56C1B8207220038ACB3 /* Images.xcassets */,
 				B0BAB56E1B8207220038ACB3 /* LaunchScreen.xib */,
@@ -117,6 +142,21 @@
 				B0BAB57A1B8207220038ACB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0BAB58B1B82235B0038ACB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0BAB5981B822E880038ACB3 /* CoreMedia.framework */,
+				B0BAB5961B822E620038ACB3 /* CoreVideo.framework */,
+				B0BAB5941B822E460038ACB3 /* CoreGraphics.framework */,
+				B0BAB5921B822D580038ACB3 /* ImageIO.framework */,
+				B0BAB5901B822D400038ACB3 /* Accelerate.framework */,
+				B0BAB58E1B822C120038ACB3 /* AVFoundation.framework */,
+				B0BAB58C1B8224D40038ACB3 /* opencv2.framework */,
+				B0BAB5891B821FFA0038ACB3 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BAB5681B8207220038ACB3 /* ViewController.m in Sources */,
 				B0BAB5651B8207220038ACB3 /* AppDelegate.m in Sources */,
 				B0BAB5621B8207220038ACB3 /* main.m in Sources */,
+				B0BAB5881B821FDE0038ACB3 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,6 +387,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				INFOPLIST_FILE = FindFaceEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +402,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				INFOPLIST_FILE = FindFaceEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
