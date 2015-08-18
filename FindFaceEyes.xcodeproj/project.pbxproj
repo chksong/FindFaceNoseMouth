@@ -22,6 +22,11 @@
 		B0BAB5951B822E460038ACB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5941B822E460038ACB3 /* CoreGraphics.framework */; };
 		B0BAB5971B822E620038ACB3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5961B822E620038ACB3 /* CoreVideo.framework */; };
 		B0BAB5991B822E880038ACB3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BAB5981B822E880038ACB3 /* CoreMedia.framework */; };
+		B0BAB5AD1B8302950038ACB3 /* haarcascade_mcs_mouth.xml in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB5A81B8302950038ACB3 /* haarcascade_mcs_mouth.xml */; };
+		B0BAB5AE1B8302950038ACB3 /* haarcascade_mcs_righteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB5A91B8302950038ACB3 /* haarcascade_mcs_righteye.xml */; };
+		B0BAB5AF1B8302950038ACB3 /* haarcascade_mcs_lefteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB5AA1B8302950038ACB3 /* haarcascade_mcs_lefteye.xml */; };
+		B0BAB5B01B8302950038ACB3 /* haarcascade_mcs_nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB5AB1B8302950038ACB3 /* haarcascade_mcs_nose.xml */; };
+		B0BAB5B11B8302950038ACB3 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = B0BAB5AC1B8302950038ACB3 /* haarcascade_frontalface_alt2.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		B0BAB5941B822E460038ACB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B0BAB5961B822E620038ACB3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		B0BAB5981B822E880038ACB3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B0BAB5A81B8302950038ACB3 /* haarcascade_mcs_mouth.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_mouth.xml; sourceTree = "<group>"; };
+		B0BAB5A91B8302950038ACB3 /* haarcascade_mcs_righteye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_righteye.xml; sourceTree = "<group>"; };
+		B0BAB5AA1B8302950038ACB3 /* haarcascade_mcs_lefteye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_lefteye.xml; sourceTree = "<group>"; };
+		B0BAB5AB1B8302950038ACB3 /* haarcascade_mcs_nose.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_nose.xml; sourceTree = "<group>"; };
+		B0BAB5AC1B8302950038ACB3 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +131,11 @@
 		B0BAB55F1B8207220038ACB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0BAB5A81B8302950038ACB3 /* haarcascade_mcs_mouth.xml */,
+				B0BAB5A91B8302950038ACB3 /* haarcascade_mcs_righteye.xml */,
+				B0BAB5AA1B8302950038ACB3 /* haarcascade_mcs_lefteye.xml */,
+				B0BAB5AB1B8302950038ACB3 /* haarcascade_mcs_nose.xml */,
+				B0BAB5AC1B8302950038ACB3 /* haarcascade_frontalface_alt2.xml */,
 				B0BAB5601B8207220038ACB3 /* Info.plist */,
 				B0BAB5611B8207220038ACB3 /* main.m */,
 			);
@@ -240,8 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BAB56B1B8207220038ACB3 /* Main.storyboard in Resources */,
+				B0BAB5AF1B8302950038ACB3 /* haarcascade_mcs_lefteye.xml in Resources */,
 				B0BAB5701B8207220038ACB3 /* LaunchScreen.xib in Resources */,
+				B0BAB5AE1B8302950038ACB3 /* haarcascade_mcs_righteye.xml in Resources */,
+				B0BAB5B11B8302950038ACB3 /* haarcascade_frontalface_alt2.xml in Resources */,
 				B0BAB56D1B8207220038ACB3 /* Images.xcassets in Resources */,
+				B0BAB5AD1B8302950038ACB3 /* haarcascade_mcs_mouth.xml in Resources */,
+				B0BAB5B01B8302950038ACB3 /* haarcascade_mcs_nose.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

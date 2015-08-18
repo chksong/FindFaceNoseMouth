@@ -21,9 +21,14 @@ using namespace cv ;
 
 @interface ViewController : UIViewController<CvVideoCameraDelegate>
 {
-    CvVideoCamera* videoCamera ;
     
     __weak IBOutlet UIImageView *imageView;
+    
+    CvVideoCamera* videoCamera ;
+    
+    CascadeClassifier faceCascade ;
+    CascadeClassifier mouthCascade ;
+    CascadeClassifier noseCascade ;
 }
 
 @end
